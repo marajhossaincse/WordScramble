@@ -11,6 +11,7 @@
 		CE3230DD2AA6787400429815 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3230DC2AA6787400429815 /* ContentView.swift */; };
 		CE3230DF2AA6787700429815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3230DE2AA6787700429815 /* Assets.xcassets */; };
 		CE3230E22AA6787700429815 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3230E12AA6787700429815 /* Preview Assets.xcassets */; };
+		CEDAC4302AA67A0F00F803A4 /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC42F2AA67A0F00F803A4 /* ListComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CE3230DC2AA6787400429815 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3230DE2AA6787700429815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3230E12AA6787700429815 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDAC42F2AA67A0F00F803A4 /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		CE3230D92AA6787400429815 /* WordScramble */ = {
 			isa = PBXGroup;
 			children = (
+				CEDAC42E2AA679F800F803A4 /* Learning Components */,
 				CE3230DA2AA6787400429815 /* WordScrambleApp.swift */,
 				CE3230DC2AA6787400429815 /* ContentView.swift */,
 				CE3230DE2AA6787700429815 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				CE3230E12AA6787700429815 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDAC42E2AA679F800F803A4 /* Learning Components */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAC42F2AA67A0F00F803A4 /* ListComponent.swift */,
+			);
+			path = "Learning Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				CE3230DD2AA6787400429815 /* ContentView.swift in Sources */,
 				CE3230DB2AA6787400429815 /* WordScrambleApp.swift in Sources */,
+				CEDAC4302AA67A0F00F803A4 /* ListComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
