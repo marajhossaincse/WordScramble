@@ -13,6 +13,7 @@
 		CE3230E22AA6787700429815 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3230E12AA6787700429815 /* Preview Assets.xcassets */; };
 		CEBEDC5F2AA858A20049901C /* BundleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEDC5E2AA858A20049901C /* BundleComponent.swift */; };
 		CEDAC4302AA67A0F00F803A4 /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC42F2AA67A0F00F803A4 /* ListComponent.swift */; };
+		CEE354BA2AA8842000D3789F /* StringComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE354B92AA8842000D3789F /* StringComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CE3230E12AA6787700429815 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEBEDC5E2AA858A20049901C /* BundleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleComponent.swift; sourceTree = "<group>"; };
 		CEDAC42F2AA67A0F00F803A4 /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
+		CEE354B92AA8842000D3789F /* StringComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				CEDAC42F2AA67A0F00F803A4 /* ListComponent.swift */,
 				CEBEDC5E2AA858A20049901C /* BundleComponent.swift */,
+				CEE354B92AA8842000D3789F /* StringComponents.swift */,
 			);
 			path = "Learning Components";
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				CEBEDC5F2AA858A20049901C /* BundleComponent.swift in Sources */,
 				CE3230DB2AA6787400429815 /* WordScrambleApp.swift in Sources */,
 				CEDAC4302AA67A0F00F803A4 /* ListComponent.swift in Sources */,
+				CEE354BA2AA8842000D3789F /* StringComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
