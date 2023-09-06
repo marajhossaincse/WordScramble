@@ -11,6 +11,7 @@
 		CE3230DD2AA6787400429815 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3230DC2AA6787400429815 /* ContentView.swift */; };
 		CE3230DF2AA6787700429815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3230DE2AA6787700429815 /* Assets.xcassets */; };
 		CE3230E22AA6787700429815 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3230E12AA6787700429815 /* Preview Assets.xcassets */; };
+		CEBEDC5F2AA858A20049901C /* BundleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEDC5E2AA858A20049901C /* BundleComponent.swift */; };
 		CEDAC4302AA67A0F00F803A4 /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC42F2AA67A0F00F803A4 /* ListComponent.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		CE3230DC2AA6787400429815 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3230DE2AA6787700429815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3230E12AA6787700429815 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEBEDC5E2AA858A20049901C /* BundleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleComponent.swift; sourceTree = "<group>"; };
 		CEDAC42F2AA67A0F00F803A4 /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				CEDAC42F2AA67A0F00F803A4 /* ListComponent.swift */,
+				CEBEDC5E2AA858A20049901C /* BundleComponent.swift */,
 			);
 			path = "Learning Components";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3230DD2AA6787400429815 /* ContentView.swift in Sources */,
+				CEBEDC5F2AA858A20049901C /* BundleComponent.swift in Sources */,
 				CE3230DB2AA6787400429815 /* WordScrambleApp.swift in Sources */,
 				CEDAC4302AA67A0F00F803A4 /* ListComponent.swift in Sources */,
 			);
