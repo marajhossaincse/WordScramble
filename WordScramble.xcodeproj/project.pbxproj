@@ -57,9 +57,9 @@
 		CE3230D92AA6787400429815 /* WordScramble */ = {
 			isa = PBXGroup;
 			children = (
-				CEDAC42E2AA679F800F803A4 /* Learning Components */,
 				CE3230DA2AA6787400429815 /* WordScrambleApp.swift */,
 				CE3230DC2AA6787400429815 /* ContentView.swift */,
+				CEDAC42E2AA679F800F803A4 /* Learning Components */,
 				CE3230DE2AA6787700429815 /* Assets.xcassets */,
 				CE3230E02AA6787700429815 /* Preview Content */,
 			);
