@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var usedWords = [String] {}
+    @State private var usedWords = [String]()
     @State private var rootWord = ""
     @State private var newWord = ""
 
@@ -25,7 +25,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("\(rootWord)")
+            .navigationTitle(rootWord)
         }
     }
 
