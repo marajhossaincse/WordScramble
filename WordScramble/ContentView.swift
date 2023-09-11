@@ -71,9 +71,22 @@ struct ContentView: View {
             range: range,
             startingAt: 0,
             wrap: false,
-            language: "en"
-        )
+            language: "en")
         return misspelledRange.location == NSNotFound
+    }
+
+    func isShort(word: String) -> Bool {
+        if word.count < 4 {
+            return false
+        }
+        return true
+    }
+
+    func isStartWord(word: String) -> Bool {
+        if word == rootWord {
+            return false
+        }
+        return true
     }
 
     func wordError(title: String, message: String) {
@@ -98,17 +111,37 @@ struct ContentView: View {
         guard answer.count > 0 else { return }
 
         guard isOriginal(word: answer) else {
-            wordError(title: "Word used already", message: "Be more original!")
+            wordError(
+                title: "Word used already",
+                message: "Be more original!")
             return
         }
 
         guard isPossible(word: answer) else {
-            wordError(title: "Word not possible", message: "You can't spell that word from '\(rootWord)'!")
+            wordError(
+                title: "Word not possible",
+                message: "You can't spell that word from '\(rootWord)'!")
             return
         }
 
         guard isReal(word: answer) else {
-            wordError(title: "Word not recognized", message: "You can't just make them up!")
+            wordError(
+                title: "Word not recognized",
+                message: "You can't just make them up!")
+            return
+        }
+
+        guard isShort(word: answer) else {
+            wordError(
+                title: "Word too short",
+                message: "You neeed to write words at least 4 characters long.")
+            return
+        }
+
+        guard isStartWord(word: answer) else {
+            wordError(
+                title: "Word is the same",
+                message: "You cannot repeat the word!")
             return
         }
 
