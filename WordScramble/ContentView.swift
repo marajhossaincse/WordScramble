@@ -16,6 +16,8 @@ struct ContentView: View {
     @State private var errorMessage = ""
     @State private var showingError = false
 
+    @State private var score = 0
+
     var body: some View {
         NavigationView {
             List {
@@ -32,6 +34,8 @@ struct ContentView: View {
                             Text(word)
                         }
                     }
+                    Text("Current score: \(score)")
+                        .font(.headline)
                 }
             }
             .navigationTitle(rootWord)
@@ -103,10 +107,15 @@ struct ContentView: View {
             if let startWords = try? String(contentsOf: startWordsURL) {
                 let allWords = startWords.components(separatedBy: "\n")
                 rootWord = allWords.randomElement() ?? "silkworm"
+                score = 0
                 return
             }
         }
         fatalError("Could not load start.txt from bundle.")
+    }
+
+    func countScore(word: String) {
+        score = score + word.count
     }
 
     func addNewWord() {
@@ -150,6 +159,7 @@ struct ContentView: View {
 
         withAnimation {
             usedWords.insert(answer, at: 0)
+            countScore(word: answer)
         }
         newWord = ""
     }
